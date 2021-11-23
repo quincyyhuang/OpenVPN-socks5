@@ -1,12 +1,9 @@
 FROM alpine:latest
 
-RUN apk update
-
-# Runtime Dependencies
-RUN apk add --no-cache bash openvpn openresolv dumb-init
-
-# Build time dependencies
-RUN apk add --no-cache -t .build-deps curl build-base
+  # Runtime Dependencies
+RUN apk add --no-cache bash openvpn openresolv dumb-init \
+  # Build time dependencies
+  && apk add --no-cache -t .build-deps curl build-base
 
 # Download and build dante
 RUN cd /tmp \
