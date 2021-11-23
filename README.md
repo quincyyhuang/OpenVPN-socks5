@@ -1,6 +1,6 @@
 # OpenVPN-socks5
 
-[Docker Hub](https://hub.docker.com/repository/docker/quincyhuang/openvpn-socks5/)
+[Docker Hub](https://hub.docker.com/r/quincyhuang/openvpn-socks5)
 
 [Github](https://github.com/quincyyhuang/OpenVPN-socks5)
 
